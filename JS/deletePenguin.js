@@ -16,7 +16,7 @@ let deleteRequest = (id) => {
         method: `DELETE`
     })
         .then((response) => {
-            if (response.status !== 200) {
+            if (response.status !== 201) {
                 console.error(`Status: ${response.statusText}`);
                 return;
             }

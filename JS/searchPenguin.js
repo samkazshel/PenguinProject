@@ -30,7 +30,7 @@ let getFetch = (id) => {
 }
 
 let getAllFetch = () => {
-    fetch('https://localhost:8083/getAll', {
+    fetch('http://localhost:8083/getAll', {
         method: 'GET',
         headers: {
             "Content-type": "application/JSON"

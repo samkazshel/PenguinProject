@@ -20,7 +20,7 @@ let postData = () => {
 }
 
 let postFetch = (object) => {
-    fetch('https://localhost:8083/createPenguin', {
+    fetch('http://localhost:8083/createPenguin', {
         method: 'POST',
         headers: {
             "Content-type": "application/JSON"
